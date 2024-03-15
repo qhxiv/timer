@@ -1,0 +1,40 @@
+.container {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  border-radius: 16px;
+  padding: 16px 32px;
+}
+
+.timer {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.timer span {
+  margin-right: 8px;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.control button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: darkmagenta;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  width: 90px;
+  color: white;
+  transition: all ease .2s;
+}
+
+.control button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
